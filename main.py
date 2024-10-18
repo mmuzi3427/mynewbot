@@ -242,8 +242,7 @@ def call(call):
             bot.answer_callback_query(callback_query_id=call.id, text="✅", show_alert=True)
         elif call.data == "B3":
             bot.answer_callback_query(callback_query_id=call.id, text="🚫", show_alert=True)
-
-bot.edit_message_text(chat_id=call.message.chat.id, message_id=call.message.message_id, text=f"4). Hisoblang :   ( 33 * 6 ) : 4 = ?\nA) 48,5\nB) 49,5\nC) 50,5", reply_markup=test4())
+            bot.edit_message_text(chat_id=call.message.chat.id, message_id=call.message.message_id, text=f"4). Hisoblang :   ( 33 * 6 ) : 4 = ?\nA) 48,5\nB) 49,5\nC) 50,5", reply_markup=test4())
         elif call.data == "C3":
             bot.answer_callback_query(callback_query_id=call.id, text="🚫", show_alert=True)
             bot.edit_message_text(chat_id=call.message.chat.id, message_id=call.message.message_id, text=f"4). Hisoblang :   ( 33 * 6 ) : 4 = ?\nA) 48,5\nB) 49,5\nC) 50,5", reply_markup=test4())

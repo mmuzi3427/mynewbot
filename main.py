@@ -3,9 +3,8 @@ from telebot.types import InlineKeyboardMarkup, InlineKeyboardButton, ReplyKeybo
 import random
 import wikipedia
 wikipedia.set_lang("uz")
-#https://t.me/MATHtestchannel
-channel = "@MATHtestchannel"
-admin_id = "7151642135"
+channel = "@username"
+admin_id = "admin id"
 son1 = 0
 son2 = 0
 amal = ""
@@ -14,9 +13,7 @@ ism = ""
 t = ""
 
 
-#7288450518:AAG1cZQmkj3Zk2LmsG93QWyolbTCXM-zLVk
-bot = TeleBot('7402806309:AAFV5sMbwlWFx1sdV080wsqiVg3QGXFjrA8')
-#7402806309:AAFV5sMbwlWFx1sdV080wsqiVg3QGXFjrA8
+bot = TeleBot('<bot_token>')
 def test10():
     test10_1 = InlineKeyboardMarkup(row_width=3)
     test10_1.add(InlineKeyboardButton("A)", callback_data="A10"), InlineKeyboardButton("B)", callback_data="B10"), InlineKeyboardButton("C)", callback_data="C10"))
